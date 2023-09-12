@@ -12,11 +12,6 @@ public class Test {
     private int errorcode = 404;
     private String user = "N-able";
     private Long transactionId = 123L;
-
-    void myNewFunc() {
-        log.error("Newly addes error");
-    }
-
   
     void myFunc0() {
         logger.info(String.format("Log message info: orderstatus={%s}, errorcode={%d}, user={%s}, transactionid={%d}", orderstatus, errorcode, user, transactionId));
